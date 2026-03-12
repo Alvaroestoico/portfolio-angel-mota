@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ángel Mota — Editor de Vídeo Profesional</title>
+  <meta name="description" content="Transformo tu material crudo en experiencias visuales que inspiran, conectan y generan resultados reales.">
+
+  <!-- Fonts: Bebas Neue (display) + DM Sans (body) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,300&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+  <!-- Film grain overlay -->
+  <div class="grain" aria-hidden="true"></div>
+
+  <!-- ═══════════════════════════════════════════════════
+       NAV
+  ═══════════════════════════════════════════════════ -->
+  <nav class="nav" id="nav">
+    <a href="#" class="nav-logo">ÁNGEL MOTA</a>
+
+    <ul class="nav-links" id="navLinks">
+      <li><a href="#trabajos">Trabajos</a></li>
+      <li><a href="#proceso">Proceso</a></li>
+      <li><a href="#contacto">Contacto</a></li>
+    </ul>
+
+    <a href="#contacto" class="btn-nav">Hablemos</a>
+
+    <button class="nav-toggle" id="navToggle" aria-label="Menú">
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+  </nav>
+
+  <!-- ═══════════════════════════════════════════════════
+       HERO
+  ═══════════════════════════════════════════════════ -->
+  <section class="hero" id="hero">
+    <div class="hero-inner">
+      <p class="section-label reveal-fade">001 / Editor Profesional</p>
+      <h1 class="hero-title">
+        <span class="hero-line">TU HISTORIA</span>
+        <span class="hero-line">MERECE UNA</span>
+        <span class="hero-line">EDICIÓN <em class="accent-text">PERFECTA.</em></span>
+      </h1>
+      <p class="hero-sub reveal-fade">
+        Transformo tu material crudo en experiencias visuales<br>
+        que inspiran, conectan y generan resultados reales.
+      </p>
+      <div class="hero-actions reveal-fade">
+        <a href="#contacto" class="btn-primary">Empieza ahora <span class="btn-arrow">→</span></a>
+        <a href="#trabajos" class="btn-ghost">Ver trabajos</a>
+      </div>
+    </div>
+    <div class="hero-scroll" aria-hidden="true">
+      <span>Scroll</span>
+      <div class="scroll-line"></div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════════════════════════
+       MARQUEE
+  ═══════════════════════════════════════════════════ -->
+  <div class="marquee-wrap" aria-hidden="true">
+    <div class="marquee-track">
+      <span>VÍDEO</span><span class="sep">•</span>
+      <span>EDICIÓN</span><span class="sep">•</span>
+      <span>REELS</span><span class="sep">•</span>
+      <span>YOUTUBE</span><span class="sep">•</span>
+      <span>SHORTS</span><span class="sep">•</span>
+      <span>CONTENIDO</span><span class="sep">•</span>
+      <span>RESULTADOS</span><span class="sep">•</span>
+      <span>VÍDEO</span><span class="sep">•</span>
+      <span>EDICIÓN</span><span class="sep">•</span>
+      <span>REELS</span><span class="sep">•</span>
+      <span>YOUTUBE</span><span class="sep">•</span>
+      <span>SHORTS</span><span class="sep">•</span>
+      <span>CONTENIDO</span><span class="sep">•</span>
+      <span>RESULTADOS</span><span class="sep">•</span>
+    </div>
+  </div>
+
+  <!-- ═══════════════════════════════════════════════════
+       STATS
+  ═══════════════════════════════════════════════════ -->
+  <section class="stats-section" id="stats">
+    <div class="container">
+      <div class="stats-grid">
+        <div class="stat-item reveal-up">
+          <div class="stat-number">
+            <span class="counter" data-target="50">0</span>
+            <span class="stat-suffix">+</span>
+          </div>
+          <p class="stat-label">Clientes satisfechos</p>
+        </div>
+        <div class="stat-item reveal-up">
+          <div class="stat-number">
+            <span class="counter" data-target="500">0</span>
+            <span class="stat-suffix">+</span>
+          </div>
+          <p class="stat-label">Vídeos editados</p>
+        </div>
+        <div class="stat-item reveal-up">
+          <div class="stat-number">
+            <span class="stat-static">7</span>
+            <span class="stat-suffix">días</span>
+          </div>
+          <p class="stat-label">Entrega garantizada</p>
+        </div>
+        <div class="stat-item reveal-up">
+          <div class="stat-number">
+            <span class="stat-static">∞</span>
+          </div>
+          <p class="stat-label">Revisiones incluidas</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════════════════════════
+       CASOS DE ÉXITO
+  ═══════════════════════════════════════════════════ -->
+  <section class="cases-section" id="trabajos">
+    <div class="container">
+
+      <div class="section-header">
+        <p class="section-label reveal-fade">002 / Casos de Éxito</p>
+        <h2 class="section-title reveal-up">Resultados que<br><em>hablan por sí solos.</em></h2>
+      </div>
+
+      <!-- Case cards -->
+      <div class="cases-grid">
+
+        <a href="casos/cliente-1.html" class="case-card reveal-up">
+          <div class="case-thumb">
+            <img
+              src="https://img.youtube.com/vi/F0JoBF9zEdE/maxresdefault.jpg"
+              alt="Caso de éxito Marca A"
+              loading="lazy"
+            >
+            <div class="case-thumb-overlay"></div>
+            <div class="case-play">
+              <svg viewBox="0 0 24 24" fill="white" width="28" height="28"><polygon points="5,3 19,12 5,21"/></svg>
+            </div>
+          </div>
+          <div class="case-info">
+            <span class="case-num">01</span>
+            <h3 class="case-name">Marca A</h3>
+            <p class="case-result">↑ 240% de seguidores en 3 meses</p>
+            <span class="case-link">Ver caso completo →</span>
+          </div>
+        </a>
+
+        <a href="casos/cliente-2.html" class="case-card reveal-up">
+          <div class="case-thumb">
+            <img
+              src="https://img.youtube.com/vi/rPpN7BcnGiE/maxresdefault.jpg"
+              alt="Caso de éxito Marca B"
+              loading="lazy"
+            >
+            <div class="case-thumb-overlay"></div>
+            <div class="case-play">
+              <svg viewBox="0 0 24 24" fill="white" width="28" height="28"><polygon points="5,3 19,12 5,21"/></svg>
+            </div>
+          </div>
+          <div class="case-info">
+            <span class="case-num">02</span>
+            <h3 class="case-name">Marca B</h3>
+            <p class="case-result">4.2M visualizaciones en YouTube</p>
+            <span class="case-link">Ver caso completo →</span>
+          </div>
+        </a>
+
+        <a href="casos/cliente-3.html" class="case-card reveal-up">
+          <div class="case-thumb">
+            <img
+              src="https://img.youtube.com/vi/grEMFcTHi5c/maxresdefault.jpg"
+              alt="Caso de éxito Marca C"
+              loading="lazy"
+            >
+            <div class="case-thumb-overlay"></div>
+            <div class="case-play">
+              <svg viewBox="0 0 24 24" fill="white" width="28" height="28"><polygon points="5,3 19,12 5,21"/></svg>
+            </div>
+          </div>
+          <div class="case-info">
+            <span class="case-num">03</span>
+            <h3 class="case-name">Marca C</h3>
+            <p class="case-result">×3.5 engagement en 2 meses</p>
+            <span class="case-link">Ver caso completo →</span>
+          </div>
+        </a>
+
+      </div>
+
+      <!-- Vertical videos (Vimeo) -->
+      <div class="vertical-section">
+        <p class="section-label reveal-fade">Formato Vertical</p>
+        <div class="vertical-grid">
+
+          <!--
+          ════════════════════════════════════════════
+          CÓMO AÑADIR TUS VÍDEOS VERTICALES DE VIMEO:
+
+          1. Ve a vimeo.com y crea una cuenta gratuita
+          2. Sube tu vídeo vertical (máx 5GB en plan gratuito)
+          3. En privacidad, elige "Solo personas con el enlace"
+          4. Entra al vídeo → click en "Compartir"
+          5. Copia el bloque <iframe> que aparece
+          6. Sustituye el bloque <div class="vimeo-slot"> por el <iframe> copiado
+          7. Asegúrate de que el iframe tenga width="100%" height="100%"
+          ════════════════════════════════════════════
+          -->
+
+          <div class="vimeo-slot">
+            <iframe src="https://player.vimeo.com/video/1173039323?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media; web-share" referrerpolicy="strict-origin-when-cross-origin" title="CORTO1"></iframe>
+          </div>
+
+          <div class="vimeo-slot">
+            <iframe src="https://player.vimeo.com/video/1173040137?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media; web-share" referrerpolicy="strict-origin-when-cross-origin" title="CORTO3"></iframe>
+          </div>
+
+          <div class="vimeo-slot">
+            <iframe src="https://player.vimeo.com/video/1173040480?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media; web-share" referrerpolicy="strict-origin-when-cross-origin" title="CORTO5"></iframe>
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════════════════════════
+       MI PROCESO
+  ═══════════════════════════════════════════════════ -->
+  <section class="process-section" id="proceso">
+    <div class="container">
+
+      <div class="section-header">
+        <p class="section-label reveal-fade">003 / Mi Proceso</p>
+        <h2 class="section-title reveal-up">Recibe tus vídeos<br><em>sin complicarte.</em></h2>
+      </div>
+
+      <div class="steps">
+
+        <div class="step">
+          <div class="step-top">
+            <span class="step-num">01</span>
+            <div class="step-connector"></div>
+          </div>
+          <h3 class="step-title">Agenda una reunión</h3>
+          <p class="step-desc">Hablamos sobre tu próximo proyecto, detalles, preferencias y el coste de realización. El precio varía según la complejidad que necesite tu vídeo.</p>
+        </div>
+
+        <div class="step">
+          <div class="step-top">
+            <span class="step-num">02</span>
+            <div class="step-connector"></div>
+          </div>
+          <h3 class="step-title">Envías el material</h3>
+          <p class="step-desc">Una vez me hayas dicho exactamente qué quieres y cómo lo quieres, me envías el material en crudo por Drive o MEGA.</p>
+        </div>
+
+        <div class="step">
+          <div class="step-top">
+            <span class="step-num">03</span>
+            <div class="step-connector"></div>
+          </div>
+          <h3 class="step-title">Proceso de Edición</h3>
+          <p class="step-desc">Transformo tus ideas en un vídeo coherente donde cada elemento cumple un propósito y el conjunto sigue el patrón perfecto para que tu reel, short o vídeo de YouTube se posicione.</p>
+        </div>
+
+        <div class="step">
+          <div class="step-top">
+            <span class="step-num">04</span>
+          </div>
+          <h3 class="step-title">Entrega y revisiones</h3>
+          <p class="step-desc">En 7 días máximo tendrás tu proyecto. Una vez lo recibes, tendrás revisiones ilimitadas hasta que estés completamente satisfecho.</p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════════════════════════
+       CONTACTO
+  ═══════════════════════════════════════════════════ -->
+  <section class="contact-section" id="contacto">
+    <div class="container">
+      <div class="contact-inner">
+
+        <div class="contact-left">
+          <p class="section-label reveal-fade">004 / Contacto</p>
+          <h2 class="section-title reveal-up">¿Listo para el<br><em>siguiente nivel?</em></h2>
+          <div class="contact-meta reveal-up">
+            <p class="contact-meta-label">O escríbeme directamente</p>
+            <a href="https://wa.me/34662262499" class="whatsapp-inline" target="_blank" rel="noopener">
+              <svg viewBox="0 0 24 24" fill="currentColor" width="20" height="20">
+                <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"/>
+              </svg>
+              +34 662 26 24 99
+            </a>
+          </div>
+        </div>
+
+        <div class="contact-right reveal-up">
+          <!--
+          ═══════════════════════════════════════════
+          CONFIGURAR FORMSPREE (para recibir emails):
+
+          1. Ve a formspree.io → Crea una cuenta gratis
+          2. Click en "New Form" → ponle un nombre
+          3. Copia el ID del formulario (ej: xpzvwkbj)
+          4. Cambia "YOUR_FORM_ID" en la línea de abajo
+             por tu ID real
+
+          Ejemplo: action="https://formspree.io/f/xpzvwkbj"
+          ═══════════════════════════════════════════
+          -->
+          <form
+            class="contact-form"
+            action="https://formspree.io/f/YOUR_FORM_ID"
+            method="POST"
+          >
+            <div class="form-group">
+              <label for="nombre">Nombre</label>
+              <input type="text" id="nombre" name="nombre" placeholder="Tu nombre" required>
+            </div>
+            <div class="form-group">
+              <label for="email">Email</label>
+              <input type="email" id="email" name="email" placeholder="tu@email.com" required>
+            </div>
+            <div class="form-group">
+              <label for="proyecto">Cuéntame tu proyecto</label>
+              <textarea id="proyecto" name="proyecto" placeholder="¿Qué tipo de contenido tienes? ¿Cuál es tu objetivo?" rows="5" required></textarea>
+            </div>
+            <button type="submit" class="btn-submit">
+              <span>Enviar mensaje</span>
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                <path d="M5 12h14M12 5l7 7-7 7"/>
+              </svg>
+            </button>
+          </form>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════════════════════════
+       FOOTER
+  ═══════════════════════════════════════════════════ -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-inner">
+        <span class="footer-logo">ÁNGEL MOTA</span>
+        <p class="footer-copy">© 2025 · Editor de Vídeo Profesional</p>
+        <div class="footer-links">
+          <a href="#trabajos">Trabajos</a>
+          <a href="#proceso">Proceso</a>
+          <a href="#contacto">Contacto</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- WhatsApp floating button -->
+  <a href="https://wa.me/34662262499" class="whatsapp-fab" target="_blank" rel="noopener" aria-label="Contactar por WhatsApp">
+    <svg viewBox="0 0 24 24" fill="currentColor">
+      <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"/>
+    </svg>
+  </a>
+
+  <!-- Vimeo player API -->
+  <script src="https://player.vimeo.com/api/player.js"></script>
+
+  <!-- GSAP -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+  <script src="js/main.js"></script>
+
+</body>
+</html>
