@@ -264,11 +264,35 @@ button { cursor: pointer; }
   max-width: var(--container);
   margin: 0 auto;
   width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 4rem;
+}
+
+.hero-content {
+  flex: 1;
+  min-width: 0;
+}
+
+.hero-image {
+  flex: 0 0 44%;
+  max-width: 500px;
+  margin-top: -6rem;
+}
+
+.hero-image img {
+  width: 100%;
+  height: auto;
+  max-height: 80vh;
+  object-fit: cover;
+  display: block;
+  border-radius: 4px;
+  filter: grayscale(15%);
 }
 
 .hero-title {
   font-family: var(--font-display);
-  font-size: clamp(5rem, 13.5vw, 14.5rem);
+  font-size: clamp(3.5rem, 8.5vw, 10rem);
   line-height: 0.88;
   letter-spacing: 0.01em;
   margin: 1.5rem 0 2.5rem;
@@ -368,7 +392,9 @@ button { cursor: pointer; }
 }
 .stats-grid {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(3, 1fr);
+  max-width: 900px;
+  margin: 0 auto;
 }
 .stat-item {
   padding: 3rem 2.5rem;
@@ -417,10 +443,13 @@ button { cursor: pointer; }
 
 .cases-grid {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(2, 1fr);
   gap: 2px;
   margin-bottom: 6rem;
   background: var(--border);
+  max-width: 900px;
+  margin-left: auto;
+  margin-right: auto;
 }
 .case-card {
   display: block;
@@ -806,8 +835,7 @@ button { cursor: pointer; }
     grid-template-columns: repeat(2, 1fr);
   }
   .stat-item:nth-child(2) { border-right: none; }
-  .stat-item:nth-child(3),
-  .stat-item:nth-child(4) {
+  .stat-item:nth-child(3) {
     border-top: 1px solid var(--border);
   }
 
@@ -884,7 +912,7 @@ button { cursor: pointer; }
 
   /* Hero font */
   .hero-title {
-    font-size: clamp(4rem, 15vw, 7rem);
+    font-size: clamp(3rem, 13vw, 6rem);
   }
   .hero {
     padding-top: 6rem;
@@ -893,6 +921,18 @@ button { cursor: pointer; }
     align-items: flex-end;
   }
   .hero-scroll { display: none; }
+  .hero-inner {
+    flex-direction: column;
+    gap: 2.5rem;
+  }
+  .hero-image {
+    flex: none;
+    max-width: 100%;
+    width: 100%;
+  }
+  .hero-image img {
+    max-height: 50vw;
+  }
 
   /* Footer */
   .footer-inner {
