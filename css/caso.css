@@ -46,7 +46,7 @@
 }
 .case-hero-title {
   font-family: var(--font-display);
-  font-size: clamp(5rem, 12vw, 13rem);
+  font-size: clamp(2.5rem, 10vw, 13rem);
   line-height: 0.88;
   letter-spacing: 0.01em;
   color: var(--text);
